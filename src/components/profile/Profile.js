@@ -4,10 +4,15 @@ import ProfileDescription from './profileDescription/ProfileDescription';
 import ProfileStatsList from './profileStatsList/ProfileStatsList';
 import s from './Profile.module.css';
 
-const Profile = ({ username, tag, location, stats }) => {
+const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div className={s.profile}>
-      <ProfileDescription username={username} tag={tag} location={location} />
+      <ProfileDescription
+        username={username}
+        tag={tag}
+        location={location}
+        avatar={avatar}
+      />
       {stats && <ProfileStatsList stats={stats} />}
     </div>
   );
