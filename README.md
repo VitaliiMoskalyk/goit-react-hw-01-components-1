@@ -36,7 +36,7 @@ npx create-react-app .
 
 ### 3.2 `/src`
 
-В папке `/src` достаточно оставить `index.js`, `App.js`, `App.css`
+В папке `/src` достаточно оставить `index.js`, `App.js`, `index.css`, `App.css`
 
 В папке `/src` создать папку `components` для размещения будущих компонентов.
 
