@@ -1,0 +1,39 @@
+.td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.tr {
+  background-color: #dfdfdf;
+  text-transform: capitalize;
+  color: #363636;
+}
+
+.tr:hover {
+  background-color: #bbbbbb;
+}
+
+.tr:nth-child(even) {
+  background-color: #d1d1d1;
+}
+
+.tr:nth-child(even):hover {
+  background-color: #bbbbbb;
+}
+
+.type {
+  composes: td;
+  padding-left: 20px;
+}
+
+.amount {
+  composes: td;
+  text-align: right;
+  padding-right: 40px;
+}
+
+.currency {
+  composes: td;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+.item {
+  padding: 5px;
+  flex-grow: 1;
+  text-align: center;
+  border-top: 1px solid #8b8b8b;
+  color: #363636;
+}
+
+.item:not(:last-child) {
+  border-right: 1px solid #8b8b8b;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+.quantity {
+  display: block;
+}

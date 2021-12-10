@@ -1,0 +1,4 @@
+.statList {
+  display: flex;
+  flex-wrap: wrap;
+}
